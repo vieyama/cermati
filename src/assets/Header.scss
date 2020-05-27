@@ -1,0 +1,39 @@
+.header {
+    height: 100vh;
+    background-color: #007bc1;
+    background: linear-gradient(
+            to bottom,
+            rgba(1, 36, 133, 0.589) 0%,
+            rgba(2, 15, 153, 0.582) 100%
+        ),
+        url('/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+    .btn-header {
+        width: 200px;
+        color: #fff;
+        font-weight: 800;
+        background-color: transparent;
+        border: solid 3px #fff;
+        &:hover {
+            background-color: #fff;
+            color: #004a75;
+        }
+    }
+}
+
+.logo {
+    width: 50px;
+}
+
+.cookie {
+    background-color: #e5e5e5;
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}

@@ -1,0 +1,90 @@
+.footer {
+    background-color: #040325;
+    .text-footer {
+        color: #fff;
+    }
+}
+
+.get-latest {
+    position: absolute;
+    top: 188vh;
+    width: 600px;
+
+    @media (max-width: 920px) {
+        width: 400px;
+        top: 222vh;
+        .email-input {
+            width: 100%;
+        }
+        .btn-count{
+            margin-top: 5px;
+            height: 35px;
+            width:100%;
+        }
+    }
+
+    @media (max-width: 720px) {
+        width: 400px;
+        top: 229vh;
+        .email-input {
+            width: 100%;
+        }
+        .btn-count{
+            margin-top: 5px;
+            height: 35px;
+            width:100%;
+        }
+    }
+
+    @media (max-width: 620px) {
+        width: 400px;
+        top: 229vh;
+        .email-input {
+            width: 100%;
+        }
+        .btn-count{
+            margin-top: 5px;
+            height: 35px;
+            width:100%;
+        }
+    }
+
+    @media (max-width: 520px) {
+        width: 400px;
+        top: 358vh;
+        .email-input {
+            width: 100%;
+        }
+        .btn-count{
+            margin-top: 5px;
+            height: 35px;
+            width:100%;
+        }
+    }
+
+    .card {
+        padding: 10px 20px 20px 20px;
+        background-color: #007bc1;
+        color: #fff;
+
+        .email-input {
+            background-color: #fff;
+            border: #fff solid 1px;
+            width: 70%;
+            margin-right: 10px;
+        }
+
+        .btn-count {
+            background-color: #ff8000;
+            color: #fff;
+            border: none;
+            padding: 3px 20px;
+        }
+
+        .btn-close {
+            background-color: transparent;
+            border: none;
+            color: #fff;
+        }
+    }
+}
